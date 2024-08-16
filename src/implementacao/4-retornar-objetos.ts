@@ -1,0 +1,3 @@
+function retornarObjetos() {
+    return null;
+}

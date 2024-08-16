@@ -1,0 +1,3 @@
+function retornarReprovadas() {
+    return null;
+}

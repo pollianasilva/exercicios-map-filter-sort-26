@@ -1,0 +1,3 @@
+function retornarMedias(){
+    return null
+}

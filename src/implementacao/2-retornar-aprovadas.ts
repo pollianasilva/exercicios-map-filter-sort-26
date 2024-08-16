@@ -1,0 +1,4 @@
+function retornarAprovadas() {
+    return null;
+}
+
