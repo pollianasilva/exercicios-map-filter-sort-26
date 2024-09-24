@@ -12,8 +12,9 @@ function retornarReprovadas(): string [] {
 
     ];
 
-    const reprovadas = alunos.filter(aluno => aluno.media <= 4)
-        .map(aluno => aluno.nome); 
+    const reprovadas = alunos
+    .filter(aluno => aluno.media <= 4)
+    .map(aluno => aluno.nome); 
 
 
     return reprovadas;
