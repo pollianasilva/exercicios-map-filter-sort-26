@@ -22,10 +22,11 @@ const resultado = alunas.map(aluna => {
     };
   });
 
-  resultado.sort((a, b) => b.media - a.media);
+  resultado.sort((a, b) => b.media - a.media); //se for para menor média basta trocar o "a" e "b" (ou seja: a.media - b.media). 
+  
 
   return resultado[0].nome;
-  
+
 }
 
 
